@@ -62,7 +62,7 @@ problem_mapping = {
                 "total": 10000
             },
             "Java: ClosestIntSameWeight.java": {
-                "passed": 0,
+                "passed": 10000,
                 "total": 10000
             },
             "Python: closest_int_same_weight.py": {
@@ -76,7 +76,7 @@ problem_mapping = {
                 "total": 10006
             },
             "Java: PrimitiveMultiply.java": {
-                "passed": 0,
+                "passed": 10006,
                 "total": 10006
             },
             "Python: primitive_multiply.py": {
@@ -90,7 +90,7 @@ problem_mapping = {
                 "total": 10000
             },
             "Java: PrimitiveDivide.java": {
-                "passed": 0,
+                "passed": 10000,
                 "total": 10000
             },
             "Python: primitive_divide.py": {
@@ -104,7 +104,7 @@ problem_mapping = {
                 "total": 10002
             },
             "Java: PowerXY.java": {
-                "passed": 0,
+                "passed": 10002,
                 "total": 10002
             },
             "Python: power_x_y.py": {
@@ -118,7 +118,7 @@ problem_mapping = {
                 "total": 19952
             },
             "Java: ReverseDigits.java": {
-                "passed": 0,
+                "passed": 19952,
                 "total": 19952
             },
             "Python: reverse_digits.py": {

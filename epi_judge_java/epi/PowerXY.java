@@ -4,8 +4,20 @@ import epi.test_framework.GenericTest;
 public class PowerXY {
   @EpiTest(testDataFile = "power_x_y.tsv")
   public static double power(double x, int y) {
-    // TODO - you fill in here.
-    return 0.0;
+    double result = 1.0;
+    long power = y;
+    if(y < 0){
+      power = -power;
+      x = 1.0 / x;
+    }
+    while(power != 0){
+      if((power & 1) != 0){
+        result *= x;
+      }
+      x *= x; // 2^10 = 4^5
+      power >>>=1;
+    }
+    return result;
   }
 
   public static void main(String[] args) {
